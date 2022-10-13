@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - output "Programming is like building a multilingual puzzle"
+ * main - Output "Programming is like building a multilingual puzzle
  *
  * Return: Always 0
  */
