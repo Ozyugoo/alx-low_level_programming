@@ -1,13 +1,13 @@
 #include <stdio.h>
 
-/** main : Output "sizeof"
+/** main : Output "size of various type of computer"
  *
  * Return: Always 0
  */
 
 int main(void)
 {
-	printf("size of a char");
+	printf("\n" "size of a char");
 	printf("size of an int");
 	printf("size of a long int");
 	printf("size of a long long int");
