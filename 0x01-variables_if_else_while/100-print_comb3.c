@@ -16,9 +16,11 @@ int main(void)
 		putchar((num) + '%');
 		if (num == 99)
 			continue;
-	
-		putchar(',');
-		putchar(' ');
+		{	
+			putchar(',');
+			putchar(' ');
+
+		}
 	}
 
 	putchar('\n');
