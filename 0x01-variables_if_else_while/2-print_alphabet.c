@@ -12,12 +12,12 @@ int main(void)
 {
 	char write;
 
-	for (write ='a'; write <='z'; write++)
+	for (write = 'a'; write <= 'z'; write++)
 
-		putchar (write);
+		putchar(write);
 
-		putchar ('\n');
+	putchar('\n');
 
-	return: 0;
+	return: (0);
 
 }
