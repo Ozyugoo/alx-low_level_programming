@@ -12,9 +12,9 @@ int main(void)
 	int num;
 	int digit;
 
-	for (num = 1; num <= 10; num++)
+	for (num = 1; num < 10; num++)
 	{
-		for (digit = 0; digit <= 9; digit++)
+		for (digit = 0; digit < 9; digit++)
 		{
 			putchar(num);
 			putchar(digit);
