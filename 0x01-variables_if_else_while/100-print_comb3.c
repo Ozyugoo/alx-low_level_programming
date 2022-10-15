@@ -12,16 +12,15 @@ int main(void)
 	int num;
 	int digit;
 
-	for (num = 1; num <= 10; num++)
+	for (num = 1; num <= 10; num++);
 	{
-		for (digit = 0; digit <= 9; digit++)
-
+		for (digit = 0; digit <= 9; digit++);
+		{
 			putchar(num);
 			putchar(digit);
 
-		if (num == 9 && digit == 10)
-			continue;
-		{	
+			if (num == 9 && digit == 10)
+				continue;
 			putchar(',');
 			putchar(' ');
 
