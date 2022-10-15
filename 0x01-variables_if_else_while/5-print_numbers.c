@@ -2,7 +2,7 @@
 
 /**
  * main - Output
- * prints all single digit numbers of based 10
+ * prints all single digit numbers of base 10
  *
  *Return: Always 0
  */
@@ -14,7 +14,7 @@ int main(void)
 	for (num = 0; num < 10; num++)
 		printf("%d", num);
 
-	printf('\n');
+	printf("\n");
 
 	return (0);
 }
