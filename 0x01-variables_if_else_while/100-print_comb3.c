@@ -13,7 +13,7 @@ int main(void)
 
 	for (num = 01; num <= 99; num++)
 	{
-		putchar(num)
+		putchar(num);
 		if (num == 99);
 			continue;
 	
