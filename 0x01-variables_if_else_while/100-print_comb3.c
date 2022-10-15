@@ -10,11 +10,16 @@
 int main(void)
 {
 	int num;
+	int digit;
 
-	for (num = 01; num <= 99; num++)
+	for (num = 1; num <= 10; num++)
 	{
-		putchar(num);
-		if (num == 100)
+		for (digit = 0; digit <= 9; digit++)
+
+			putchar(num);
+			putchar(digit);
+
+		if (num == 9 && digit == 10)
 			continue;
 		{	
 			putchar(',');
