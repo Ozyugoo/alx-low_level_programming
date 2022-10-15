@@ -4,7 +4,7 @@
 /**
  * main - Output
  * Prints if a variable is positive or negative.
- * Return: 0  
+ * Return: 0
  */
 int main(void)
 {
@@ -23,6 +23,6 @@ int main(void)
 	else if (n < 0)
 	{
 		printf("%d is negative\n", n);
-	}	
+	}
 	return (0);
 }
