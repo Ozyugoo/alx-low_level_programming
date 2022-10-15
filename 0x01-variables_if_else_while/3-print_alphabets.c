@@ -17,10 +17,7 @@ int main(void)
 
 	for(print = 'A'; print <= 'Z'; print++)
 		putchar(print);
-	
 	putchar('\n');
 
-	return 0;
-}
-
-	
+	return (0);
+}	
