@@ -17,12 +17,12 @@ int main(void)
 		
 		for (num3 = num1 + 2; num3 < 10; num3++)
 
-				putchar((num1 % 10) + '0');
-				putchar((num2 % 10) + '0');
-				putchar((num3 % 10) + '0');
+			putchar((num1 % 10) + '0');
+			putchar((num2 % 10) + '0');
+			putchar((num3 % 10) + '0');
 
-			if (num1 == 7 && num2 == 8 && num3 == 9)
-					continue;
+		if (num1 == 7 && num2 == 8 && num3 == 9)
+				continue;
 		
 		putchar(',');
 		putchar(' ');
