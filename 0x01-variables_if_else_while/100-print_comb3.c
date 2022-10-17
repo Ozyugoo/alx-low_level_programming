@@ -15,8 +15,8 @@ int main(void)
 	{
 		for (digit = num + 1; digit < 10; digit++)
 		{
-			putchar(num % 10) + '0';
-			putchar(digit % 10) + '0';
+			putchar((num % 10) + '0');
+			putchar((digit % 10) + '0');
 
 			if (num  == 8 && digit == 9)
 				continue;
