@@ -19,7 +19,7 @@ int main(void)
 			putchar(num);
 			putchar(digit);
 
-			if ((num == 9 + 0) && (digit == 10 + 0))
+			if ((num == 9 + 1) && (digit == 10 + 0))
 				continue;
 			putchar(',');
 			putchar(' ');
