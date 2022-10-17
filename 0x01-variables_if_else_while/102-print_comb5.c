@@ -21,6 +21,7 @@ int main(void)
 					{
 						putchar((num1 % 10) + '0');
 						putchar((num2 % 10) + '0');
+						putchar(' ');
 						putchar((num3 % 100) + '0');
 						putchar((num4 % 100) + '0');
 
