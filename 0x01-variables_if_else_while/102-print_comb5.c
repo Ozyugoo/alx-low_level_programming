@@ -19,10 +19,10 @@ int main(void)
 				{
 					for (num4 = num3 + 1; num4 < 100; num4++)
 
-						putchar(num1 % 10) + '0';
-						putchar(num2 % 10) + '0';
-						putchar(num3 % 100) + '0';
-						putchar(num4 % 100) + '0';
+						putchar((num1 % 10) + '0');
+						putchar((num2 % 10) + '0');
+						putchar((num3 % 100) + '0');
+						putchar((num4 % 100) + '0');
 
 						if (num1 == 8 && num2 == 9 && num3 == 98 && num4 == 99)
 							continue;
@@ -32,8 +32,9 @@ int main(void)
 				}
 			}
 		}
+	}
 
-		putchar('\n');
+	putchar('\n');
 
-		return (0);
+	return (0);
 }
