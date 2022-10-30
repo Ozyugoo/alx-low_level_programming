@@ -3,14 +3,10 @@
 /**
  * add - adds two integers and returns the result
  * @a: first integer to be added
- * @n: second integer to be added
- * Returns: returns sum of a and n
+ * @b: second integer to be added
+ * Return: result of the addition
  */
-int add(int a, int n)
+int add(int a, int b)
 {
-int c;
-
-c = a + n;
-
-return (c);
+return (a + b);
 }
