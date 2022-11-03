@@ -29,4 +29,5 @@ return (-1);
 if (r * r == n)
 return (1);
 return (actual_sqrt_recursion(n, r + 1));
+return (-1);
 }
