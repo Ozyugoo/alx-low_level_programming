@@ -10,17 +10,26 @@
 
 int main(void)
 {
-char a;
-int n;
+int pw[100];
+int i, j, sum;
 
-srand(time(0));
-while
-(n <= 2645)
+j = 0;        
+
+srand(time(NULL));
+
+for (i = 0; i < 100; i++)
 {
-a = rand() % 128;
-n += a;
-putchar(a);
+pw[i] = rand() % 78;
+j += (pw[i] + '0');
+putchar(pw[i] + '0');
+if ((2772 - j) - '0' < 78)
+{
+sum = 2772 - j - '0';
+j += sum;
+putchar(sum + '0');
+break;
 }
-putchar(2772 - n);
+}
+
 return (0);
 }
