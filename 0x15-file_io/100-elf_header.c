@@ -300,6 +300,7 @@ exit(98);
 r = read(o, header, sizeof(Elf64_Ehdr));
 if (r == -1)
 {
+free(header);
 close_elf(o);
 dprintf(STDERR_FILENO, "Error: `%s`: No such file\n", argv[1]);
 exit(98);
